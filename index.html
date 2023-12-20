@@ -10,8 +10,8 @@
 <body>
 
     <div id="app">
-        
-        <ul class="list-unstyled m-5">
+
+        <ul class="list-unstyled m-5" v-if="emails.length == 10">
             
             <li class="m-5" v-for="email in emails" :key="email">{{ email }}</li>
 
